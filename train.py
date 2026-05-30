@@ -103,6 +103,6 @@ for epoch in range(NUM_EPOCHS):
 with open("class_names.json", "w") as f:
     json.dump(class_names, f)
 
-print(f"
+print(f"")
 Best Val Acc: {best_val_acc:.4f}")
 print("Saved best_model.pth and class_names.json")
